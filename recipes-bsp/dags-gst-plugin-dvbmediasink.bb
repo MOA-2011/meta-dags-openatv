@@ -1,8 +1,8 @@
 SUMMARY = "Plugin for gstreamer: dvbmediasink"
 SECTION = "multimedia"
 LICENSE = "MIT | LGPLv2.1"
-LIC_FILES_CHKSUM = "file://src/gstdvbaudiosink.c;md5=f75cb576c08988776c2bc525cdff4382 \
-                    file://src/gstdvbvideosink.c;md5=4c4f38110ec1bc426f24f6bf9bccf5ca"
+LIC_FILES_CHKSUM = "file://src/gstdvbaudiosink.c;md5=b014da5e2d58d4840e0ef33911b0191f \
+                    file://src/gstdvbvideosink.c;md5=fa4eeb1987eaea718ed8c5e974e22d14"
 
 DEPENDS = "gstreamer gst-plugins-base"
 RDEPENDS_${PN} = "gst-ffmpeg"
